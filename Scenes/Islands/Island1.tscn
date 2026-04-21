@@ -42,10 +42,10 @@
 [ext_resource type="Texture2D" uid="uid://ct5yc2t6bct3h" path="res://Group3Final/Assets/Premade ship sprite and asset/Premade ship sprite and asset/Premade Ships/Premade Ship 1/PremadeShip1_hulk.png" id="41_hcbk3"]
 [ext_resource type="Texture2D" uid="uid://bwci6agvhwptg" path="res://Group3Final/Assets/Premade ship sprite and asset/Premade ship sprite and asset/Premade Ships/Premade Ship 1/PremadeShip1_masts and sails.png" id="42_p51n6"]
 [ext_resource type="Texture2D" uid="uid://brotax4poos3h" path="res://Group3Final/Assets/Premade ship sprite and asset/Premade ship sprite and asset/Premade Ships/Premade Ship 1/PremadeShip1_props.png" id="43_li1rx"]
-[ext_resource type="PackedScene" uid="uid://fb0n1oc1nuqq" path="res://Group3Final/Scenes/guy.tscn" id="44_oe4s2"]
-[ext_resource type="PackedScene" uid="uid://1oq668ahqah7" path="res://Group3Final/Scenes/test_item_giver.tscn" id="45_acyh1"]
-[ext_resource type="PackedScene" uid="uid://do3xgd2v521cc" path="res://Group3Final/Scenes/ship.tscn" id="45_akn2e"]
-[ext_resource type="PackedScene" uid="uid://pmmlltbyap3y" path="res://Group3Final/Scenes/combat_starter.tscn" id="46_egi7y"]
+[ext_resource type="PackedScene" uid="uid://fb0n1oc1nuqq" path="res://Scenes/guy.tscn" id="44_oe4s2"]
+[ext_resource type="PackedScene" uid="uid://1oq668ahqah7" path="res://Scenes/test_item_giver.tscn" id="45_acyh1"]
+[ext_resource type="PackedScene" uid="uid://do3xgd2v521cc" path="res://Scenes/ship.tscn" id="45_akn2e"]
+[ext_resource type="PackedScene" uid="uid://pmmlltbyap3y" path="res://Scenes/combat_starter.tscn" id="46_egi7y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6w8l4"]
 texture = ExtResource("1_5vqwx")
@@ -4065,10 +4065,10 @@ layer_0/tile_data = PackedInt32Array(-65539, 131074, 0, -3, 131074, 1, 65533, 13
 
 [node name="watercover" type="ColorRect" parent="." unique_id=815881748]
 z_index = -4096
-offset_left = -258.0
-offset_top = -659.0
-offset_right = 2008.0
-offset_bottom = 170.0
+offset_left = -916.0
+offset_top = -1259.0
+offset_right = 2608.0
+offset_bottom = 833.0
 color = Color(0.09411765, 0.3529412, 0.5019608, 1)
 
 [node name="GrassCover" type="ColorRect" parent="." unique_id=1304224988]
